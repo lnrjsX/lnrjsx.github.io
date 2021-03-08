@@ -27,10 +27,9 @@
   background: #75ffcc;
 }
 
-body {
+body,
+html {
   background-color: #000;
-  overflow-x: hidden;
-  /* height: 100vh; */
 }
 
 header nav {
@@ -333,13 +332,13 @@ footer .sosmed img {
     border-right-width: 0;
     top: 35px;
     right: 0;
-    transform: translateX(100%);
-    transition: all 0.3s;
+    transform: translateY(-200%);
+    transition: all 0.25s ease-out;
     margin-top: 60px;
   }
 
   header nav .right-navbar.slide {
-    transform: translateX(0);
+    transform: translateY(0);
   }
 
   header nav .right-navbar a {
